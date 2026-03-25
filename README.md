@@ -7,10 +7,10 @@ Qryma Ai web search API with Markdown/JSON/Brave formats. Generous free tier cov
 ### Install Skills
 ```bash
 # Agent skills (Claude Code, Cursor, etc.)
-npx skills add https://github.com/qryma-ai/skill
+npx skills add https://github.com/qryma-ai/skills
 
 # Manual installation
-git clone https://github.com/qryma-ai/skill.git qryma-search
+git clone https://github.com/qryma-ai/skills.git qryma-search
 cd qryma-search
 pip install -r requirements.txt
 ```

@@ -113,9 +113,9 @@
       "command": "python main_claw.py --query \"how to learn python\" --format md"
     },
     {
-      "name": "Search with AI answer",
-      "description": "Get direct answers",
-      "command": "python main_claw.py --query \"explain quantum computing\" --include-answer --format md"
+      "name": "Detailed search",
+      "description": "Get detailed search results",
+      "command": "python main_claw.py --query \"explain quantum computing\" --detail --format md"
     }
   ],
   "badges": [

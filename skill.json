@@ -23,6 +23,34 @@
       "description": "Maximum number of results"
     },
     {
+      "name": "lang",
+      "type": "string",
+      "required": false,
+      "default": "en",
+      "description": "Language code"
+    },
+    {
+      "name": "start",
+      "type": "integer",
+      "required": false,
+      "default": 0,
+      "description": "Start offset for pagination"
+    },
+    {
+      "name": "safe",
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "description": "Enable safe search"
+    },
+    {
+      "name": "detail",
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "description": "Enable detailed results"
+    },
+    {
       "name": "format",
       "type": "string",
       "required": false,
@@ -32,24 +60,6 @@
         "raw",
         "brave",
         "md"
-      ]
-    },
-    {
-      "name": "include_answer",
-      "type": "boolean",
-      "required": false,
-      "default": false,
-      "description": "Whether to include AI answer"
-    },
-    {
-      "name": "search_depth",
-      "type": "string",
-      "required": false,
-      "default": "basic",
-      "description": "Search depth: basic | advanced",
-      "choices": [
-        "basic",
-        "advanced"
       ]
     }
   ]
