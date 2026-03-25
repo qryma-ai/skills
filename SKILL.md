@@ -49,7 +49,3 @@ Create `.env` file:
 ```bash
 QRYMA_API_KEY=ak-your-api-key-here
 ```
-
-## License
-
-MIT
