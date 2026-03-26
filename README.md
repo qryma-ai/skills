@@ -19,10 +19,16 @@ pip install -r requirements.txt
 
 ### Authenticate
 Get your free QRYMA_API_KEY from [qryma.com](https://qryma.com/). Chat with your AI assistant and ask it to help you complete the configuration.
-> Please configure qryma search with the QRYMA_API_KEY set to ak-your-api-key-here.
+
+```test
+Please configure qryma search with the QRYMA_API_KEY set to ak-your-api-key-here.
+```
 
 从[qryma.com](https://qryma.com/) 获取免费的QRYMA_API_KEY，直接发送给你的AI助手，让他帮你自动配置。
-> 请帮我配置好qryma search，设置QRYMA_API_KEY为ak-your-api-key-here
+
+```text
+请帮我配置好qryma search，设置QRYMA_API_KEY为ak-your-api-key-here
+```
 
 Via the command line:
 
