@@ -7,6 +7,8 @@ description: Search the web with multiple output formats using the Qryma API. Us
 
 Search the web with Qryma search engine. Supports multiple output formats including Markdown, JSON, and Brave search-like format.
 
+Visit [qryma.com](https://qryma.com/) for more information.
+
 ## Quick start
 
 ### Basic search (Markdown format)
