@@ -136,7 +136,7 @@ class QrymaSearchCore:
                 {
                     "title": r.get("title"),
                     "url": r.get("link"),  # API returns link field
-                    "content": r.get("text"),
+                    "content": r.get("text") or r.get("snippet"),
                 }
             )
 
