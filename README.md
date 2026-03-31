@@ -57,11 +57,11 @@ Get an API key from your Qryma service provider.
 |--------|-------------|
 | `--api-key` | Qryma API key |
 | `--query` | **Required** Search query (e.g. "machine learning") |
-| `--max-results` | Maximum number of results (default: 5) |
+| `--max-results` | Maximum number of results (default: 10) |
 | `--lang` | Language code (default: en) - [See available languages](https://developers.google.com/custom-search/docs/xml_results_appendices#interfaceLanguages) |
 | `--start` | Start offset (default: 0) |
 | `--safe` | Enable safe search (default: False) |
-| `--detail` | Enable detailed results (default: False) |
+| `--detail` | Enable detailed results (default: True) |
 | `--format` | Output format: raw \| brave \| md (default: raw) |
 
 ## Workflow

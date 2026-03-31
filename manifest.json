@@ -47,7 +47,7 @@
         {
           "name": "max-results",
           "type": "number",
-          "default": 5,
+          "default": 10,
           "description": "Maximum number of results"
         },
         {
@@ -71,7 +71,7 @@
         {
           "name": "detail",
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Enable detailed results"
         },
         {
